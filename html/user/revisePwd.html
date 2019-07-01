@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <link rel="import" href="../head.html?__inline">
+    <title>修改密码</title>
+</head>
+
+<body style="height: 100% ;" class="fs15">
+	<div class="wp100 pl10 fs15 lh50 ba p-r bb pr10 mt20" id="revise-Tel">
+		<!-- <div class="  pl20" >手机号<span class="fs15 pr120 newTelCode tel" id="userTel"></span></div> -->
+		<div class="pl20" >手机号<input type="tel" placeholder="手机号" class="fs15  revise-Tel tel" id="userTel"></div>
+	</div>
+
+	<div class="wp100 pl10 fs15 ba p-r bb">
+		<div class="inline_block p-a ab_r pr10 btn-vaild mr20 fs12 lh30" id="newTelCode">获取验证码</div>
+		<div class="  pl20 lh50" >验证码<input type="tel" placeholder="验证码" pattern="[0-9]*" class="fs15 pr120 newTelCode tel"></div>
+	</div>
+
+	<div class="wp100 pl10 fs15 lh50 ba p-r bb mt20 pr10" id="revise-NPwd">
+		<div class="  pl20" >新密码<input type="password" placeholder="新密码(不少于6位)" class="fs15  revise-NPwd tel"></div>
+	</div>
+
+	<div class="wp100 pl10 fs15 lh50 ba p-r bb pr10" id="revise-NPwd2">
+	    <div class="  pl20" >确认密码<input type="password" placeholder="确认密码(不少于6位)"  class="fs15  revise-NPwd2  tel"></div>
+	</div>
+
+	<div class=" mt40 plr10">
+		<input type="button" value="确定" class="but wp100 fs16" id="reviseSub">
+	</div>
+
+	<link rel="import" href="../footer.html?__inline">
+    <script data-loader>
+        require(['app/controller/user/revisePwd']);
+    </script>
+</body>
+</html>

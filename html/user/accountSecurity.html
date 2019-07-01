@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <link rel="import" href="../head.html?__inline">
+    <title>账户安全</title>
+</head>
+
+<body>
+
+	<div class="manageWrap" style="width: 100%;"></div>
+	<div class="fs15 ba">
+		<div class="ptb10 border-b mt10 pl30" >真实姓名<span class="info" id="realName"></span></div>
+		<div class="ptb10 border-b pl30" >手机号<span class="info" id="mobile"></span></div>
+		<div class="ptb10 mb10 pl30">身份证号<span class="info" id="idNo"></span></div>
+	</div>
+	<div class="fs15 ba mb35">
+		<a href="javascript:;" class="ptb10 border-b pl30 wp100" id="bank">绑定银行卡<img src="../images/更多.png" class="fr mlr30 mt8" ></a>
+		<a href="reviseTel.html" class="ptb10 border-b pl30 wp100" id="revise-tel">修改手机号<img src="../images/更多.png" class="fr mlr30 mt8" ></a>
+		<a href="revisePwd.html" class="ptb10 pl30 border-b  wp100" id="revise-pwd">修改登录密码<img src="../images/更多.png" class="fr mlr30 mt8" ></a>
+		<a href="javascript:;" class="ptb10 pl30  wp100" id="charge-code">修改交易密码<img src="../images/更多.png" class="fr mlr30 mt8" ></a>
+	</div>
+
+<div class="wp100  fs15  ba p-r bb">
+	<a class="wp100  tc btn" href="javascript:;" id="logOut">退出当前账号</a>
+</div>
+
+	<link rel="import" href="../footer.html?__inline">
+    <script data-loader>
+        require(['app/controller/user/accountSecurity']);
+    </script>
+</body>
+</html>

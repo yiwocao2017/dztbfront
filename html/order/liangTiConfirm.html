@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <link rel="import" href="../head.html?__inline">
+    <title>确认量体</title>
+</head>
+
+<body class="ba ">
+
+	<div class=" lh200 hig800 wp100 plr20 tc" id="confirm_btn">
+		<div class=" inline_block mt100 lh200 param active" id="firstCode" data-code><img src="../images/选中蓝.png" id="confirm_img1">¥<h3 id="price0" class="fs30 inline_block" ></h3></div>
+		<div class=" inline_block ml25 mt10 lh200 param"><img src="../images/未选中.png" id="confirm_img2">¥<h3 id="price1" class="fs30 inline_block"></h3></div>
+	</div>
+
+	<div class=" mt120 plr10 confirmSub0" >
+		<input type="button" value="确认" class="but wp100 fs16" id="confirmSub">
+	</div>
+
+	<link rel="import" href="../footer.html?__inline">
+    <script data-loader>
+        require(['app/controller/order/liangTiConfirm']);
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <link rel="import" href="../head.html?__inline">
+    <title>修改手机号码</title>
+</head>
+
+<body style="height: 100%;">
+
+	<div class="wp100 pl10 fs17 lh50 ba p-r bb mt20 pr10"  id="revise-Tel">
+		<div class="  pl20" >手机号<input type="number" placeholder="请输入手机号" class="fs15  revise-NPwd tel revise-Tel"></div>
+	</div>
+
+	<div class="wp100 pl10 fs17  ba p-r bb pr10 " id="revise-NPwd2">
+		<div class="inline_block p-a ab_r pr10  btn-vaild mr10 fs12 " id="newTelCode">获取验证码</div>
+		<div class="  pl20 lh50" >验证码<input type="number" placeholder="请输入手机验证码" pattern="[0-9]*" class="fs15  revise-NPwd2 newTelCode tel"></div>
+	</div>
+
+	<div class=" mt50 plr10">
+		<input type="button" value="确定" class="but wp100 fs16" id="reviseSub">
+	</div>
+
+	<link rel="import" href="../footer.html?__inline"> 
+    <script data-loader>
+        require(['app/controller/user/revise']);
+    </script>
+</body>
+</html>

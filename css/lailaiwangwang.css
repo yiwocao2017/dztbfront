@@ -1,0 +1,279 @@
+设置*/
+.red{color:#cf102d;}
+.blue{color:#002269;}
+/*.fs22{font-size:0.22rem;}
+.fs24{font-size:0.24rem;}
+.fs26{font-size:0.26rem}
+.fs28{font-size:0.28rem;}
+.fs30{font-size:0.30rem;}
+.fs32{font-size:0.32rem;}
+.fs36{font-size:0.36rem;}
+.fs60{font-size:0.6rem;}
+.fs100{font-size:1rem;}
+.lh88{line-height: 0.88rem;}
+.hig98{height:0.98rem;}
+.hig88{height:0.88rem;}
+.hig160{height:1.6rem;}
+.hig600{height:10rem;}
+.hig800{height:8rem;}
+.hig300{height:3rem;}
+.hig500{height:5rem;}
+*/
+.minhig{min-height: 100%}
+.hig1000{height:10rem;}
+.ba{background-color:#ffffff;}
+.bc{background-color:#f2f2f2;}
+.lh200{line-height:200%;}
+.coc{color:#cccccc;}
+.co9{color:#999999;}
+.co6{color:#666666;}
+.co0{color:#000;}
+.white{color:#ffffff;}
+.ptb36{padding-top:0.36rem;padding-bottom:0.36rem;}
+.hig100{border-bottom:0.5px solid #eeeeee;}
+.b-b{border-top:0.5px solid #dedede;}
+.b-bottom{border-bottom:0.5px solid #dedede;}
+.lh100{line-height:1rem;}
+.hig600{height:10rem;}
+.hig190{height:190px;}
+.hig180{height:180px;}
+.hig100{height:1rem;}
+.hig{height:100%;}
+.p-a{position:absolute;}
+.p-r{position:relative;}
+.p-f{position: fixed;}
+.pt8{padding-top:0.08rem;}
+.pb4{padding-bottom:0.04rem;}
+.xxx:after{
+	display: inline-block;
+	width:0;
+	height:100%;
+	vertical-align:middle;
+	content: "";
+}
+.black{color:#000000;}
+.but{line-height:0.8rem;background-color:#002269;color:#ffffff;border-radius:0.1rem;}
+.more{width:0.6rem;height: 1rem;position: absolute;right: 0.3rem;top: 40%;margin-top: -0.15rem;}
+
+
+.head{width: 1rem;height: 1rem;border:0.06rem solid #ffffff;border-radius:0.8rem;}
+.ba-img{background:url(../images/%E8%83%8C%E6%99%AFx.png) no-repeat center;background-size:cover;}
+.hig220{height:2.2rem;}
+.hig300{height:3rem;}
+.hig400{height:4rem;}
+.hig90{height:0.9rem !important;}
+.lh90{line-height:0.9rem !important;}
+.hig100{height:1rem;}
+.yijian{background:url(../images/%E5%A4%8D%E8%B4%AD@2x.png) no-repeat center;background-size:0.36rem;padding-left:1.6rem;}
+.bor-r{border-right:0.01rem solid #dedede;float:right;}
+.mtb60{margin-top:0.6rem;margin-bottom:0.6rem}
+.mt160 {margin-top: 160px;}
+.mt100 {margin-top: 100px;}
+.mt120 {margin-top: 120px;}
+.mb50 {margin-bottom: 50px;}
+.hig36{height:0.36rem;}
+.lh80{line-height:0.8rem;}
+.state{right: 0.3rem;top: 0.3rem;}
+.number{background:url(../images/%E8%AE%A2%E5%8D%95%E5%8F%B7@2x.png)  no-repeat left;background-size:0.3rem;padding-left:0.48rem;}
+.phone{background:url(../images/%E7%94%B5%E8%AF%9D@2x.png)  no-repeat left;background-size:0.3rem;padding-left:0.48rem;}
+.map{background:url(../images/%E5%9C%B0%E5%9D%80@2x.png)  no-repeat left;background-size:0.3rem;padding-left:0.48rem;background-position-y:0.06rem;}
+.time{background:url(../images/%E6%97%B6%E9%97%B4@2x.png)  no-repeat left;background-size:0.3rem;padding-left:0.48rem;}
+.pt18{padding-top:0.18px;}
+.dai{position: absolute;right: 0.3rem;top:0.08rem;}
+.cha-but{width:1.48rem;height:0.6rem;border:0.5px solid #cccccc;border-radius:0.1rem;}
+.cancel{width:1.48rem;height:0.6rem;border:0.5px solid #cf102d;border-radius:0.1rem;}
+/*房间管理*/
+.green{color:#06cdb8;}
+.fs12{font-size:12px;}
+.fs13{font-size:13px;}
+.fs14{font-size:14px; }
+.fs15{font-size:15px; }
+.fs16{font-size:16px; }
+.fs17{font-size:17px; }
+.fs18{font-size:18px;}
+.fs22px{font-size:22px;}
+.fs30px{font-size:30px; }
+.lh44{line-height: 44px;}
+.ba{background-color:#ffffff;}
+.return{
+	background:url(../images/return.png) no-repeat  10px center;background-color:#ffffff;
+	background-size: 8px 16px;
+}
+.manage{padding:10px 10px;}
+.bb{border-bottom:0.5px #e5e5e5 solid;}
+.image{width:100px; height:80px;}
+.room-style{font-size:16px;}
+.room-number,.room-point{font-size:14px;color:#999999;}
+.price{font-size:16px;color:#ff9c00;}
+.lh19{line-height:20px;}
+.check-in{float:right;color:#06cdb8;}
+.back{float:right;color:#999999;}
+.over-hide{ overflow: hidden}
+
+/*退房*/
+.fs15{font-size:15px;}
+.ptb18{padding-top:18px;padding-bottom:18px;}
+.border-b{border-bottom:0.5px solid #e5e5e5;}
+.lh50{line-height:50px;}
+.wid{width:100px;}
+.p-a{position:absolute;}
+.p-r{position:relative;}
+.pl120{padding-left:120px;}
+.status11{display: none;}
+
+/*首页*/
+.img-height{height:180px;background:url(../images/量体师端背景8.png) no-repeat center;background-size:cover;}
+/*.head{height: 55px;}*/
+.h-name{color:#002269;padding-top:5px;font-size: 14px;}
+.pos{left: 55%; margin-left: -50px;top: 32px;}
+.icon{height:90px;}
+.icon-box{margin-left:55px;margin-top:36px;}
+.mt22{margin-top:22px;}
+.icon-userPic{height: 55px;width: 55px;margin-bottom: 2px;}
+.userPic{border-radius: 50%;overflow: hidden;}
+/*提成管理*/
+.back-img{background-color: #fff;position: relative;}
+.back-word{padding: 0 15px;}
+.t-cf102d{ color: #CF102D;}
+.back-word p{display: inline-block;line-height:100px;}
+.back-word i{font-style: normal; position: relative;top: 5px;}
+.back-more{line-height:100px;overflow: hidden; position: absolute; top: 0; right: 15px;}
+.back-more img{
+	height: 20px;
+}
+/*账单*/
+.billTime{color:#999999;float:right;}
+.p-rice{color:#CF102D;}
+.finally{color:#a8a8a8;font-size: 13px;}
+.addBankCard{
+	width: 100%;
+	height: 70px;
+	position: relative;
+}
+.BankCardWrap{
+	width: 100%;
+	height: 70px;
+	position: relative;
+	z-index: 9;
+}
+/*#bankcardNumber{
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	width: 100%;
+	height: 70px;
+}*/
+.BankCardWrap-t{
+	position: absolute;
+	top: 0;
+	left: 0;
+	line-height: 70px;
+	padding-left: 20px;
+}
+#cardNumberVal{
+	width: 100%;
+	height: 70px;
+	word-break:break-all;
+	line-height: 70px;
+	overflow: hidden;
+	padding-left: 100px;
+	padding-right: 50px;
+}
+.withdraw-more{
+	position: absolute;
+	top: 25px;
+	right: 20px;
+	height: 20px;
+}
+.jyPwd-wrap{
+	position: relative;
+}
+.jyPwd-wrap div{
+	position: absolute;
+	top: 0;
+	left: 20px;
+}
+.jyPwd-wrap input{
+	padding-left: 100px;
+}
+
+/*系统*/
+.newp{width:40px;}
+
+/*账户安全*/
+.btn-SignOut{
+	width: 100%;
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+}
+
+.fdPwd{
+	padding: 10px 0;
+}
+
+
+/*登录*/
+#loginBtn{background: #cf102d;}
+
+/*账户安全*/
+.btn{height: 50px;font-size: 14px;color: #cf102d;line-height: 50px;}
+.info{position: absolute;left: 180px;}
+
+/*修改手机号*/
+.tel{position: absolute;left: 110px;top: 0px;height: 50PX;}
+.btn-vaild{right: 28px;top: 10px;border-radius: 10px;background: #cf102d;color: #fff;z-index: 3;padding-left: 10px;width: 80px;height: 30px;}
+.but{line-height:50px;background-color:#cf102d;color:#ffffff;border-radius:5px;}
+
+
+/*银行卡*/
+.revise{position:absolute;right:0.6rem;}
+.bank{background:url(../images/工商背景.png)  no-repeat center;overflow-y: visible;background-size: cover;border-radius: 10px;}
+.bank:after{
+	content: "";
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+	display: inline-block;
+}
+.hig260{height:2.6rem;}
+.bank-logo{width:2.5rem;left: 1.4rem;top: 25%;}
+.fs40{font-size:0.4rem;}
+.bank-mass{ 
+    padding-left: 5rem;
+    vertical-align: middle;
+    background: transparent;
+}
+.mt45{margin-top:0.45rem;}
+.ml45{margin-left:0.45rem;}
+
+/*添加银行卡*/
+.pr100{padding-right:1rem;}
+#bankCardForm input{margin-left: 120px;}
+/*#bankCardForm select{width: 100px;height: 34px;position: absolute;right: 0;opacity: 0;}*/
+.fs20{font-size:20px;}
+
+/*我的订单*/
+.btn-order{color: #cf102d;background: #fff;border:1px solid #cf102d;}
+.img-order{width: 1rem;height: 1rem;}
+.btn-l{text-align: center;color: #C6C6C6;border:1px solid #9D9D9D;}
+.font{color: #CF102D;right: 20px;}
+.choose{border-bottom: 2px solid #CF102D; color: #CF102D;}
+.orderHead{z-index: 99;}
+.orderContent{top: 45px;}
+
+/*订单详情*/
+.ming1{width:8rem;}
+.pl160{padding-left:5.5rem;}
+.adress{line-height: 1.5;padding-top: 10px}
+.view{overflow-y: visible;}
+/*量体数据*/
+.btn_data{color: #C6C6C6;background: #F7F7F7;border:1px solid #9D9D9D;border-radius: 5px;width: 70px;height: 30px;}
+.input_data{width: 12rem;}
+.mr90{margin-right: 90px;}
+.mr180{margin-right: 180px;}
+.bgf0{background-color: #F0F0F0;}
+.over-select{position: absolute;top: 0;left:0;height: 50px;z-index: 99999;opacity: 0;}
+.over-select1{position: absolute;top: 0;right:5px;height: 50px;z-index: 99999;opacity: 0;}

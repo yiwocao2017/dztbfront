@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<link rel="import" href="../head.html?__inline">
+	<title>我的订单</title>
+</head>
+
+<body class="bc minhig">
+	<div class=" ba  lh200  wp100 plr20 tc border-b hig">
+		<div class=" inline_block mt4 fs15 choose" id="allOrder">全部订单</div>
+		<div class=" inline_block ml25 mt4 fs15" id="stayLt">待量体</div>
+		<div class=" inline_block ml25 mt4 fs15" id="stayEntry">待录入</div>
+		<div class="inline_block ml25 mt4 fs15" id="stayReview">待复核</div>
+	</div>
+
+	 <div id="wrapper" class="scroll-wrapper">
+	    <div id="scroll">
+	        <div id="pullDown" class="idle">
+	            <div class="pullDownLabel">
+	                <div class="bounce1"></div>
+	                <div class="bounce2"></div>
+	                <div class="bounce3"></div>
+	                <div class="bounce4"></div>
+	            </div>
+	        </div>
+
+	       <div class=" wp100 p-r bgf0 clearfix hig" id="content">	</div>
+
+	        <div id="pullUp" class="idle hig">
+	            <div class="pullUpLabel">
+	                <div class="bounce1"></div>
+	                <div class="bounce2"></div>
+	                <div class="bounce3"></div>
+	                <div class="bounce4"></div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+
+
+	<link rel="import" href="../footer.html?__inline">
+	<script>
+		require(['app/controller/order/myOrder']);
+	</script>
+</body>
+
+</html>

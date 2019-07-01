@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<link rel="import" href="../head.html?__inline">
+	<title>订单详情</title>
+</head>
+
+<body class="bc">
+	<div class="ba lh200 plr15 fs15 p-r mt10 bb ptb10">
+		<div class="co9 inline_block ming1 p-a">订单编号</div>
+		<div class="inline_block pl160" id="code"></div>
+	</div>
+	<div class="ba lh200 plr15 fs15 p-r bb ptb10">
+		<div class="co9 inline_block ming1 p-a">姓名</div>
+		<div class=" inline_block pl160 " id="applyName"></div>
+	</div>
+	<div class="ba lh200 plr15 fs15 p-r  bb ptb10">
+		<div class="co9 inline_block ming1 p-a">手机号码</div>
+		<div class=" inline_block pl160" id="applyMobile"></div>
+	</div>
+	<div class="ba lh200 plr15 fs15 p-r  bb  ptb10" id="ltRealNameWrap">
+		<div class="co9 inline_block ming1 p-a">量体师姓名</div>
+		<div class=" inline_block pl160" id="ltRealName"></div>
+	</div>
+	<div class="ba lh200  plr15 fs15 p-r  bb  ptb10" id="ltMobileWrap">
+		<div class="co9 inline_block ming1 p-a">量体师手机</div>
+		<a href="#"><div class=" inline_block pl160" id="ltMobile"></div></a>
+	</div>
+	<div class="ba lh200  plr15 fs15 p-r  bb  ptb10">
+		<div class="co9 inline_block ming1 p-a mt6">量体地址</div>
+		<div class=" inline_block pl160 adress" id="address"></div>
+	</div>
+	<div class="ba lh200 plr15 fs15 p-r  bb ptb10">
+		<div class="co9 inline_block ming1 p-a">预约时间</div>
+		<div class=" inline_block pl160" id="ltDatetime"></div>
+	</div>
+	<div class="ba lh200 plr15 fs15 p-r  bb ptb10">
+		<div class="co9 inline_block ming1 p-a">量体叮嘱</div>
+		<div class=" inline_block pl160" id="applyNote"></div>
+	</div>
+	<div class="ba lh200 plr15 fs15 p-http bb ptb10">
+		<div class="co9 inline_block ming1 p-a">下单时间</div> 
+		<div class=" inline_block pl160" id="createDatetime"></div>
+	</div>
+	<div class="ba lh200 plr15 fs15 p-r  bb ptb10">
+		<div class="co9 inline_block ming1 p-a">订单状态</div>
+		<div class=" inline_block pl160 red" id="status"></div>
+	</div>
+
+	<div class=" mt50 plr10 ltBtn">
+		<!-- <input type="button" value="确认量体" class="but wp100 fs16" id="reviseSub"> -->
+	</div>
+	
+	<link rel="import" href="../footer.html?__inline">
+	<script data-loader>
+		require(['app/controller/order/orderDetail']); 
+	</script>
+</body>
+
+</html>

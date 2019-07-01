@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <link rel="import" href="../head.html?__inline">
+    <title>提成管理</title>
+</head>
+
+<body>
+	<div class="back-img" id="rQ-balance">
+		<div class="back-word">
+			<p class="fs15">可结算余额:<i class="fs30px pl30 t-cf102d" id="rQ-balanceNum"></i></p>
+		</div>
+		<div class="back-more"><img src="../images/更多@2x.png"></div>
+	</div>
+	
+	<div class="rQ-income" id="rQ-income">
+		<div class="inline_block fs15"></div>
+	    <div class="fs15 "></div>
+	</div>
+	
+	<!--<div class="fs15 ba">
+		<div class="ptb18 border-b mt10 pl30" >总收入(元)<span class="info" id="rQ-incomeNum"></span></div>
+		<div class="ptb18 border-b pl30" >已结算金额<span class="info" id="rQ-setNum"></span></div>
+	</div>-->
+	
+	
+	<div class=" plr20 mt100">
+		<input type="button" value="提现" id="sbtn" class="but wp100 fs16">
+	</div>
+
+	<link rel="import" href="../footer.html?__inline">
+    <script data-loader>
+        require(['app/controller/account/reportQuery']);
+    </script>
+    
+</body>
+</html>

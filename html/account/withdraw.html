@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<link rel="import" href="../head.html?__inline">
+	<title>提现</title>
+	<style>
+		label.error{
+		    top: 0.2rem;
+		}
+	</style>
+</head>
+
+<body class="bc ">
+	<form id="withdrawForm">
+		<div class="addBankCard ba mb10 hidden" id="addBankCard">
+			<div class="BankCardWrap-t wp100">添加银行卡</div>
+			<img src="../images/更多@2x.png" class="withdraw-more"/>
+		</div>
+		
+		<div class="addBankCard ba mb10 hidden" id="BankCard">
+			<div class="inline_block BankCardWrap">
+				<div class="BankCardWrap-t">银行卡</div>
+				<div class="pl10" id="cardNumberVal"></div>
+				<img src="../images/更多@2x.png" class="withdraw-more"/>
+			</div>
+			<select id="bankcardNumber" name="bankcardNumber" class="over-select wp100"></select>
+		</div>
+
+		<div class="ba plr20 ptb20 bb">
+			<div class="fs15 pb20">提现金额</div>
+			<div class="fs15 p-r over-hide amount">
+				<div class="fs22px inline_block charge-unit fl ab">¥</div>
+				<input class="fs30px wp100 fl pl20" type="number" id="amount" name="amount">
+			</div>
+
+		</div>
+		<div class="wp100 fs14 lh200 ba p-r bb jyPwd-wrap">
+			<div class="inline_block wid p-a ptb10">交易密码</div>
+			<input type="password" placeholder="请输入交易密码" id="tradePwd" name="tradePwd" class="fs14 pl160 wp100 ptb15 plr20">
+		</div>
+	</form>
+	<div class="ba fs14 plr20 co9 ptb4">可提现金额<span id="amountPrompt"></span>元</div>
+
+	<div class=" plr20 mt100">
+		<input type="button" value="确认提现" id="sbtn" class="but wp100 fs15">
+	</div>
+	<link rel="import" href="../footer.html?__inline">
+	<script>
+		require(['app/controller/account/Withdraw']);
+	</script>
+</body>
+
+</html>
